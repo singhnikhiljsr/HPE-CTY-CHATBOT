@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+         
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+         
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+         
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+         
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Python Programming Language, Complete information about Python", "All about Python, I'll make Python easy for you!"]
+         
+        },
+        {"tag": "python",
+         "patterns": ["Python", "help me with python", "about python", "best programming language", "what's your favourite language?" ],
+         "responses": ["Python is the simplest and most used programming language in 21st Century!"]
+         
+        },
+        {"tag": "for_loop",
+         "patterns": ["what is for loop in python", "how do we write loop in python", "how to iterate through loop", "repeat some sentence", "syntax of for loop" ],
+         "responses": ["For loop in python is very simple. Syntax: for iterator in range(length):print('HI')"]
+         
+        },
+        {"tag": "class",
+         "patterns": ["classes in python", "objects in python", "methods in python", "data members", "objects" ],
+         "responses": ["Classes in python are declared using the keyword class. Syntax: class Nikhil: ...(define you variables and methods)"]
+         
+        },
+        {"tag": "inheritance",
+         "patterns": ["inheritance","derive class","new class from old","inheritance in python"],
+         "responses": ["Inheritance in Python is deriving a new class from an existing class. Syntax: class Nikhil(Priyanshi): ... (define you variables and methods))"]
+        
+        },
+        {"tag": "java_c++",
+         "patterns": ["java", "C", "C++", "which is better c++ or java or python", "ruby","pearl","javascript" ],
+         "responses": ["I'm developed to handle Python related questions :)"]
+         
+        },
+        {"tag": "Name",
+         "patterns": ["What's your name","name","Who developed you?","What's you age?","Who are you?","Tell me about yourself?"],
+         "responses": ["They call me a PyBOT because I answer Python related queries. I'm developed by my Master !!"]
+         
+        },
+        {"tag": "list",
+         "patterns": ["list", "Lists in python", "list comprehension", "how can we store differnet datatypes?", "arrays" ],
+         "responses": ["Lists in python are used to store different datatypes. It is mutable. Syntax: list_name = []"]
+         
+        },
+        {"tag": "tuple",
+         "patterns": ["tuple","efficient way to store in python"],
+         "responses": ["Tuples in python are used to store multiple items in a single variable. It is faster than lists but they are immutable"]
+        
+        },
+        {"tag": "dictionary",
+         "patterns": ["dictionary","maps","hash","key value pair"],
+         "responses": ["Dictionary in Python is an unordered collection of data values, used to store data values like a map. Syntac: dict = {}"]
+         
+        }
+   ]
+}
